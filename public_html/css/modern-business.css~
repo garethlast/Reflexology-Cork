@@ -1,0 +1,322 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+   
+}
+
+body {
+    padding-top: 5px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
+    text-align: center;
+    font-family: 'Open Sans', arial, sans-serif; 
+    color: #6c6368; 
+    font-size: 14px;
+}
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 42%;
+    border: 1px solid black;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+    background-color:#e5e5e5;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+/******* SOCIAL *******/
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 54px;
+    height: 54px;
+    color: #FFF;
+    /*background-color: #fc37fb;*/
+    font-size: 30px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 99.3s;
+    -moz-transition: all ease 99.3s;
+    -webkit-transition: all ease 99.3s;
+    -o-transition: all ease 99.3s;
+    -ms-transition: all ease 99.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.social .fa-facebook/*hover*/ { /* round facebook icon*/
+    background: #4060A5;
+}
+
+.social .fa-twitter { /* round twitter icon*/
+    background: #00ABE3;
+}
+
+.social .fa-google-plus { /* round google plus icon*/
+    background: #e64522;
+}
+.social .fa-linkedin { /* round linkedin icon*/
+    background: #0094BC;
+}
+
+.social .fa-envelope { /* round envelope icon*/
+    background: #FF57AE;
+}
+
+.navbar-pink {
+    background-color: #d0d0d0;
+    border-color: rgb(194, 97, 135);
+    border-radius: 0;
+    border-top-width: 1;
+    color: #6c6368;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    margin-bottom: 2;
+}
+
+.navbar-pink a.navbar-brand {
+    color: #6c6368;    
+    font-weight: 700;
+}
+
+ul.nav a:hover { color: #021da6 !important; }
+}
+
+.business-header2 {
+    height: 150px;
+    background: url('http://pixabay.com/get/98d797d13b404d70569a/1422458049/feet-539356_1280.jpg?direct') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: auto;
+}
+
+/* ---------- TESTIMONIAL ----------*/
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+#carousel{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e5e5e5;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+    
+}
+/*
+#reflexology{
+    background: url("img/logo3.jpg");
+    background-repeat:;
+    background-position: center center;
+    background-attachment:;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+	font-family: 'Open Sans', arial, sans-serif; 
+    color: #5A4747; 
+    font-size: 14px;
+};*/
+  .navbar-nav > li {border-right: 1px solid #666;}
+  .navbar-nav {border-left: 1px solid #666;}
+  .navbar{font-size: 13px;}
+
+/*********** FAQ Page ***********/
+
+.faq-cat-content {
+    margin-top: 25px;
+}
+
+.faq-cat-tabs li a {
+    padding: 15px 10px 15px 10px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #777777;
+}
+
+.nav-tabs li a:focus,
+.panel-heading a:focus {
+    outline: none;
+}
+
+.panel-heading a,
+.panel-heading a:hover,
+.panel-heading a:focus {
+    text-decoration: none;
+    color: #777777;
+}
+
+.panel-title {
+	font-size:14px;
+}
+
+.faq-cat-content .panel-heading:hover {
+    background-color: #efefef;
+}
+
+.active-faq {
+    border-left: 5px solid #888888;
+}
+
+
+
+
+
+
+.panel-faq .panel-heading .panel-title span {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+/********** Contact Us Page **********/
+
+.map{
+	border: 1px solid black;
+}
